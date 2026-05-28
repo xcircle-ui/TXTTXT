@@ -1,4 +1,4 @@
-const marqueeText = "★ TEST TEXT 1 ★ TEST TEXT 2 ★ TEST TEXT 3 ★ TEST TEXT 4 ★ TEST TEXT 5 ★";
+const FUNKYYYY = "★ TEST TEXT 1 ★ TEST TEXT 2 ★ TEST TEXT 3 ★ TEST TEXT 4 ★ TEST TEXT 5 ★";
 
 function setMarqueeText(text) {
   const el = document.getElementById("marqueeText");
@@ -8,5 +8,5 @@ function setMarqueeText(text) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  setMarqueeText(marqueeText);
+  setMarqueeText(FUNKYYYY);
 });
